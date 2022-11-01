@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= device-width intial-secale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Gede Andika</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Team</a>
+        <a href="#">Contact</a>
+    </header>
+
+    <div class="banner">
+        <img class="layer-1" src="img/bg.png" alt="">
+        <img class="layer-2" src="img/meteor.png" alt="">
+
+        <div class="layer-3">
+            <h1>Hello & Welcome</h1>
+            <p>to</p>
+            <p>My Portofolio</p>
+            <a href="#teks">Get Started</a>
+        </div>
+
+        <img class="layer-4" src="img/4.png" alt="">
+        <img class="layer-5" src="img/5.png" alt="">
+        <img src="img/6.png">
+    </div>
+
+    <div class="content" id="teks">
+        <h1>WELCOME !</h1>
+        <p>HERE!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, blanditiis perferendis! Quidem at, accusantium repellendus hic assumenda totam, illum beatae adipisci mollitia vitae, iste error. Ad alias quasi ex ipsa? Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, blanditiis perferendis! Quidem at, accusantium repellendus hic assumenda totam, illum beatae adipisci mollitia vitae, iste error. Ad alias quasi ex ipsa?Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, blanditiis perferendis! Quidem at, accusantium repellendus hic assumenda totam, illum beatae adipisci mollitia vitae, iste error. Ad alias quasi ex ipsa?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, blanditiis perferendis! Quidem at, accusantium repellendus hic assumenda totam, illum beatae adipisci mollitia vitae, iste error. Ad alias quasi ex ipsa?Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, blanditiis perferendis! Quidem at, accusantium repellendus hic assumenda totam, illum beatae adipisci mollitia vitae, iste error. Ad alias quasi ex ipsa?Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, blanditiis perferendis! Quidem at, accusantium repellendus hic assumenda totam, illum beatae adipisci mollitia vitae, iste error. Ad alias quasi ex ipsa?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, blanditiis perferendis! Quidem at, accusantium repellendus hic assumenda totam, illum beatae adipisci mollitia vitae, iste error. Ad alias quasi ex ipsa?Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, blanditiis perferendis! Quidem at, accusantium repellendus hic assumenda totam, illum beatae adipisci mollitia vitae, iste error. Ad alias quasi ex ipsa?Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, blanditiis perferendis! Quidem at, accusantium repellendus hic assumenda totam, illum beatae adipisci mollitia vitae, iste error. Ad alias quasi ex ipsa?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, blanditiis perferendis! Quidem at, accusantium repellendus hic assumenda totam, illum beatae adipisci mollitia vitae, iste error. Ad alias quasi ex ipsa? Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, blanditiis perferendis! Quidem at, accusantium repellendus hic assumenda totam, illum beatae adipisci mollitia vitae, iste error. Ad alias quasi ex ipsa?Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, blanditiis perferendis! Quidem at, accusantium repellendus hic assumenda totam, illum beatae adipisci mollitia vitae, iste error. Ad alias quasi ex ipsa?</p>
+        
+    </div>
+
+    <script type="text/javascript">
+        let layer_1 = document.querySelector('.layer-1')
+        let layer_2 = document.querySelector('.layer-2')
+        let layer_3 = document.querySelector('.layer-3')
+        let layer_4 = document.querySelector('.layer-4')
+        let layer_5 = document.querySelector('.layer-5')
+
+        window.onscroll = function(){
+            let Y = window.scrollY;
+
+            layer_1.style.transform = 'translateY('+ Y/1.5 +'px)';
+            layer_2.style.transform = 'translateY('+ Y/2 +'px)';
+            layer_3.style.transform = 'translateY('+ Y/1.5 +'px)';
+            layer_4.style.transform = 'translateY('+ Y/2 +'px)';
+            layer_5.style.transform = 'translateY('+ Y/3 +'px)';
+        }
+    </script>
+
+
+</body>
+</html>
